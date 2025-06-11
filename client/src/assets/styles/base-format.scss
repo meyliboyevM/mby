@@ -1,0 +1,43 @@
+h1 {
+  @apply text-5xl font-bold;
+}
+
+h2 {
+  @apply text-4xl font-bold;
+}
+
+h3 {
+  @apply text-3xl font-semibold;
+}
+
+h4 {
+  @apply text-2xl font-semibold;
+}
+
+h5 {
+  @apply text-xl font-medium;
+}
+
+h6 {
+  @apply text-lg font-medium;
+}
+
+p {
+  @apply text-base;
+}
+
+a {
+  @apply text-blue-600 underline hover:text-blue-800 dark:text-blue-400;
+}
+
+ul, ol {
+  @apply pl-5 list-disc list-none;
+}
+
+code {
+  @apply bg-gray-100 text-pink-600 px-1 py-0.5 rounded dark:bg-gray-800 dark:text-pink-400;
+}
+
+blockquote {
+  @apply border-l-4 border-gray-400 pl-4 italic text-gray-600 dark:text-gray-300;
+}

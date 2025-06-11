@@ -1,0 +1,23 @@
+//}/* You can add global styles to this file, and also import other style files */
+
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "assets/styles/fonts";
+@import "assets/styles/base-format";
+@import "assets/styles/theme";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Fira Code', monospace !important;
+  background-color: #2C3036FF;
+  color: #A0A4AE;
+}
+
+html, body { height: 100%; }
