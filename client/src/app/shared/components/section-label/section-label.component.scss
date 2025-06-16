@@ -1,0 +1,25 @@
+.line path {
+  stroke-dasharray: 511;       /* Длина линии */
+  stroke-dashoffset: 511;      /* Начальное смещение — линия скрыта */
+  animation: draw 2s linear forwards; /* Анимация 2 секунды, вперёд */
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0; /* Показываем линию полностью */
+  }
+}
+
+#arrows-right-left {
+  animation: slideX 1s ease-in-out infinite;
+}
+
+@keyframes slideX {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(10px); /* или 20px — как хочешь */
+  }
+}

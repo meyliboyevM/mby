@@ -1,0 +1,10 @@
+<section-label navigateId="projects" title="projects" link="projects" [hasLine]="true"/>
+
+<!--  Projects   -->
+<swiper-container class="swiper" [attr.slides-per-view]="3" autoplay-delay="2500" style="width: 1100px">
+  @for (item of projects; track item) {
+    <swiper-slide>
+      <app-project [data]="item"/>
+    </swiper-slide>
+  }
+</swiper-container>

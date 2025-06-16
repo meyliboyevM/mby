@@ -1,11 +1,13 @@
 import { Component, Input } from '@angular/core';
-import {Project} from '../../app.component';
 import {NgIf} from '@angular/common';
+import {ButtonCComponent} from '../../shared/components/button-c/button-c.component';
+import {Project} from '../../shared/intefaces/project';
 
 @Component({
   selector: 'app-project',
   imports: [
-    NgIf
+    NgIf,
+    ButtonCComponent
   ],
   templateUrl: './project.component.html',
   standalone: true,

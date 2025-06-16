@@ -1,0 +1,21 @@
+<nav class="flex gap-4 pe-4 text-secondary">
+  <ul class="flex gap-4">
+    @for (item of navItems; track item.id) {
+      <li class="cursor-pointer hover:text-white">
+        <a class="!no-underline !text-inherit" [href]="item.path">
+          <span class="text-primary">#</span>{{ item.name }}
+        </a>
+      </li>
+    }
+  </ul>
+  <select
+    (change)="switchLang($event)"
+    class="cursor-pointer font-semibold focus:outline-none border-0 py-0"
+    id="languages"
+    name="languages"
+  >
+    <option class="cursor-pointer" value="en">EN</option>
+    <option class="cursor-pointer" value="uz">UZ</option>
+    <option class="cursor-pointer" value="ru">RU</option>
+  </select>
+</nav>

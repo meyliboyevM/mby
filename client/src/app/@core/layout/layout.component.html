@@ -1,0 +1,26 @@
+<div class="flex">
+
+  <!-- Right aside -->
+  <div class="w-40 ps-10 bg-aside-color text-secondary">
+    <left-aside/>
+  </div>
+
+  <!-- Main -->
+  <div class="flex-1 bg-bg-color relative">
+    <header-c/>
+    <main-c/>
+    <footer-c/>
+    <button
+      (click)="scrollToTop()"
+      *ngIf="showButton"
+      class="fixed cursor-pointer bottom-4 right-4 hover:bg-gray-900/50 text-white p-3 rounded-full shadow-xl transition-opacity duration-300"
+    >⬆️
+    </button>
+  </div>
+
+  <!-- Right aside -->
+  <div class="w-40 bg-aside-color text-secondary">
+    <right-aside/>
+  </div>
+</div>
+

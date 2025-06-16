@@ -1,11 +1,11 @@
 <div class="w-[330px] text-secondary border">
-  <img src="imgs/pr-images/p-1.jpg">
-  <p class="px-1 p-1 font-mono border-b">{{data.stack}}</p>
+  <img width="330px" height="200px" [src]="data.banner ? 'data.banner' : 'imgs/pr-images/p-1.jpg'" alt="Project banner">
+  <p class="px-1 p-1 font-mono border-b border-t">{{data.stack}}</p>
   <div class="px-4">
     <h6 class="my-3 font-medium text-white">{{data.title}}</h6>
     <p> {{data.description}} </p>
-    <div>
-      <button *ngIf="data?.buttons[0]" class="my-2 me-6 px-4 py-1 cursor-pointer text-white border border-primary">{{data?.buttons[0]}}</button>
+    <div class="flex items-center mb-2 gap-4">
+      <button-c *ngIf="data?.buttons[0]" [value]="data?.buttons[0]" [animation]="false"/>
       <button *ngIf="data?.buttons[1]" class="my-2 px-4 py-1 cursor-pointer text-secondary border">{{data?.buttons[1]}}</button>
     </div>
   </div>
