@@ -2,7 +2,7 @@ import "react";
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import Footer from './sections/Footer';
-import About from "./sections/About.jsx";
+import About from "./sections/About";
 
 const App = () => {
     return (
