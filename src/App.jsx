@@ -2,15 +2,17 @@ import "react";
 import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import Footer from './sections/Footer';
+import About from "./sections/About.jsx";
 
 const App = () => {
-  return (
-    <div className="container mx-auto max-w-7xl">
-      <Navbar />
-      <Hero />
-      <Footer/>
-    </div>
-  );
+    return (
+        <div className="container mx-auto max-w-7xl">
+            <Navbar/>
+            <Hero/>
+            <About/>
+            <Footer/>
+        </div>
+    );
 };
 
 export default App;

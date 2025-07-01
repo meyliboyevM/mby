@@ -7,7 +7,7 @@ import { Frameworks } from "../components/FrameWorks";
 const About = () => {
   const grid2Container = useRef();
   return (
-    <section className="c-space section-spacing" id="about">
+    <section className=" pt-14 c-space section-spacing" id="about">
       <h2 className="text-heading">About Me</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         {/* Grid 1 */}
@@ -30,8 +30,8 @@ const About = () => {
             ref={grid2Container}
             className="flex items-center justify-center w-full h-full"
           >
-            <p className="flex items-end text-5xl text-gray-500">
-              CODE IS CRAFT
+            <p className="flex items-end text-5xl text-gray-500 text-center">
+              Engineering the Web Experience
             </p>
             {/*<Card*/}
             {/*  style={{ rotate: "75deg", top: "30%", left: "20%" }}*/}
@@ -80,7 +80,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I'm based in Mars, and open to remote work worldwide
+              I&#39;m based in Mars, and open to remote work worldwide
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
@@ -91,7 +91,7 @@ const About = () => {
         <div className="grid-special-color grid-4">
           <div className="flex flex-col items-center justify-center gap-4 size-full">
             <p className="text-center headtext">
-              Do you want to start a project together?
+              Let’s build something great together!
             </p>
             <CopyEmailButton />
           </div>
@@ -101,8 +101,10 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headText">Teck Stack</p>
             <p className="subtext">
-              I specialize in a variety of languages, frameworks, and tools taht
-              allow me to build robust and scalable applications
+              I work with React, Angular, Node.js, PostgreSQL and more.
+            </p>
+            <p className="subtext">
+              Building full-stack apps with clean UI, scalable architecture, and great UX.
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">
