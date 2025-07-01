@@ -11,9 +11,13 @@ const About = () => {
       <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         {/* Grid 1 */}
         <div className="flex items-end grid-default-color grid-1">
-          <img
-            src="assets/img-2.jpg"
-            className="absolute md:scale-[3] left-0 md:inset-y-10 lg:scale-[1.15]"
+          <video
+              src="assets/about/grid-1.1.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="absolute md:scale-[3] left-0 md:inset-y-10 lg:scale-[1.15] !rounded-xl"
           />
           <div className="z-10">
             <p className="headtext">Hi, I&#39;m Meyliboy Meyliboyev</p>
@@ -79,7 +83,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
             <p className="subtext">
-              I&#39;m based in Mars, and open to remote work worldwide
+              Broadcasting from Mars — collaborating with Earth, remotely and globally
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">

@@ -2,7 +2,7 @@ import { FlipWords } from "./FlipWords";
 import { motion } from "motion/react";
 
 const HeroText = () => {
-  const words = ["Crafting", "Modern"];
+  const words = ["Aspiring", "Modern", 'Active'];
   const variants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0 },
@@ -41,15 +41,15 @@ const HeroText = () => {
               className="font-black text-white text-8xl"
             />
           </motion.div>
-          <motion.p
-            className="text-4xl font-medium text-neutral-300"
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 1.8 }}
-          >
-            Modern Web Experiences
-          </motion.p>
+          {/*<motion.p*/}
+          {/*  className="text-4xl font-medium text-neutral-300"*/}
+          {/*  variants={variants}*/}
+          {/*  initial="hidden"*/}
+          {/*  animate="visible"*/}
+          {/*  transition={{ delay: 1.8 }}*/}
+          {/*>*/}
+          {/*  Modern Web Experiences*/}
+          {/*</motion.p>*/}
         </div>
       </div>
       {/* Mobile View */}
@@ -84,15 +84,15 @@ const HeroText = () => {
               className="font-bold text-white text-7xl"
             />
           </motion.div>
-          <motion.p
-            className="text-4xl font-black text-neutral300"
-            variants={variants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 1.8 }}
-          >
-            Modern Web Experiences
-          </motion.p>
+          {/*<motion.p*/}
+          {/*  className="text-4xl font-black text-neutral300"*/}
+          {/*  variants={variants}*/}
+          {/*  initial="hidden"*/}
+          {/*  animate="visible"*/}
+          {/*  transition={{ delay: 1.8 }}*/}
+          {/*>*/}
+          {/*  Modern Web Experiences*/}
+          {/*</motion.p>*/}
         </div>
       </div>
     </div>
