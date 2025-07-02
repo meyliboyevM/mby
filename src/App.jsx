@@ -3,6 +3,7 @@ import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import Footer from './sections/Footer';
 import About from "./sections/About";
+import Experiences from "./sections/Experiences.jsx";
 
 const App = () => {
     return (
@@ -10,6 +11,7 @@ const App = () => {
             <Navbar/>
             <Hero/>
             <About/>
+            <Experiences/>
             <Footer/>
         </div>
     );

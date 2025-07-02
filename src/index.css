@@ -157,3 +157,17 @@ body {
 .field-input-focus {
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/20;
 }
+
+
+/* В вашем global.css или styles.css */
+.path-animation path {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+  animation: draw 6s ease forwards;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

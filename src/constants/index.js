@@ -244,37 +244,31 @@ export const mySocials = [
 export const experiences = [
   {
     title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    job: "Frontend Developer at Next Level Group",
+    date: "2023–2024",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Worked on diverse frontend projects after a year of self-study, gaining real-world experience with a focus on usability, performance, and scalability.",
+      "Built modern web interfaces using Core JavaScript, React, Next.js, and popular CSS preprocessors and UI libraries such as Material UI, Chakra UI, and Bootstrap.",
+      "Developed and maintained production-ready applications using Next.js (deployed via Vercel), ensuring high performance and SEO optimization.",
+      "Delivered frontend solutions for various domains, including distribution companies, restaurant menu systems with integrated delivery, and warehouse inventory/payment management tools.",
+      "Implemented government-compliant web applications for national universities, ensuring they met official cybersecurity and usability standards.",
+      "Contributed to a startup project building a testing platform for university applicants to evaluate and improve their knowledge through mock exams.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Software Developer",
+    job: "Frontend Developer at Uzinfocom",
+    date: "March 2024 – Present",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
+      "Developing large-scale, state-level web applications using Angular, TypeScript, and related frameworks including RxJS.",
+      "Contributed to the frontend development of a nationwide electricity billing platform, including user and employee mobile cabinets.",
+      "Participated in projects supporting electronic document management for utilities (e.g., digitizing electricity usage acts).",
+      "Integrated payment systems (similar to CLICK and PayMe) and collaborated on secure transaction workflows.",
+      "Worked on backend logic using Node.js when building and integrating critical parts of the payment system and API layers.",
+      "Currently building a citizen-facing web application that enables new electricity connections, reconnections, capacity upgrades, and more.",
+      "Collaborated with cross-functional teams to ensure accessibility, performance, and compliance with national IT standards.",
     ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
-    ],
-  },
+  }
 ];
 export const reviews = [
   {
