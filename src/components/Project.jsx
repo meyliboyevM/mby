@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import{ useState } from "react";
 import ProjectDetails from "./ProjectDetails";
 
 const Project = ({
@@ -9,6 +9,7 @@ const Project = ({
   image,
   tags,
   setPreview,
+                   visibility
 }) => {
   const [isHidden, setIsHidden] = useState(false);
   return (
@@ -19,7 +20,7 @@ const Project = ({
         onMouseLeave={() => setPreview(null)}
       >
         <div>
-          <p className="text-2xl">{title}</p>
+          <p className="text-2xl">{title} <small className={`text-sm border px-1 rounded-lg opacity-50 ${visibility === "private" ? "bg-red-600/50 text-red-300" : "bg-green-600/50 text-green-300"}`}>{visibility}</small></p>
           <div className="flex gap-5 mt-2 text-sand">
             {tags.map((tag) => (
               <span key={tag.id}>{tag.name}</span>
@@ -43,6 +44,7 @@ const Project = ({
           image={image}
           tags={tags}
           href={href}
+          visibility={visibility}
           closeModal={() => setIsHidden(false)}
         />
       )}
