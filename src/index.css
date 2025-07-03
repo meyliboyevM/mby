@@ -58,10 +58,31 @@
     }
   }
 }
+
+
+/* Custom Scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f1f1c; /* Darker background to blend with your site */
+  /*border-radius: 5px;*/
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #00ffcc 0%, #00796b 100%);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #00ffe5 0%, #009688 100%);
+}
+
 html {
   scroll-behavior: smooth;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none;  /* IE and Edge */
+  /*scrollbar-width: none; !* Firefox *!*/
+  /*-ms-overflow-style: none;  !* IE and Edge *!*/
 }
 body {
   background: linear-gradient(

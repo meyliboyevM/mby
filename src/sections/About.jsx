@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import { Globe } from "../components/globe";
 import CopyEmailButton from "../components/CopyEmailButton";
 import { FrameWorks } from "../components/FrameWorks";
 
@@ -87,7 +86,7 @@ const About = () => {
             </p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
-            <Globe />
+            {/*<Globe />*/}
           </figure>
         </div>
         {/* Grid 4 */}
