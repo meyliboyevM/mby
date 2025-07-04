@@ -12,6 +12,20 @@ const Project = ({
                    visibility
 }) => {
   const [isHidden, setIsHidden] = useState(false);
+
+  const getBadgeClass = (visibility) => {
+    switch (visibility) {
+      case "private":
+        return "text-red-300";
+      case "public":
+        return "text-amber-300";
+      case "hobby":
+        return "text-[#57db96]";
+      default:
+        return "bg-gray-500/50 text-gray-300";
+    }
+  };
+
   return (
     <>
       <div
@@ -20,7 +34,7 @@ const Project = ({
         onMouseLeave={() => setPreview(null)}
       >
         <div>
-          <p className="text-2xl">{title} <small className={`text-sm border px-1 rounded-lg opacity-50 ${visibility === "private" ? "bg-red-600/50 text-red-300" : "bg-green-600/50 text-green-300"}`}>{visibility}</small></p>
+          <p className="text-2xl">{title} <small className={`text-sm border px-1 rounded-lg ${getBadgeClass(visibility)}`}>{visibility}</small></p>
           <div className="flex gap-5 mt-2 text-sand">
             {tags.map((tag) => (
               <span key={tag.id}>{tag.name}</span>

@@ -19,12 +19,12 @@ export const myProjects = [
         path: "/assets/logos/next.js.svg",
       },
       {
-        id: 4,
+        id: 2,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
       {
-        id: 5,
+        id: 3,
         name: "Zustand",
         path: "/assets/logos/zustand.svg",
       },
@@ -45,29 +45,128 @@ export const myProjects = [
     image: "/assets/projects/mega-dashboard.jpg",
     tags: [
       {
-        id: 2,
+        id: 1,
         name: "React",
         path: "/assets/logos/react.svg",
       },
       {
-        id: 4,
+        id: 2,
         name: "Redux",
         path: "/assets/logos/redux.svg",
       },
       {
-        id: 5,
+        id: 3,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
     visibility: 'private'
   },
+  {
+    id: 3,
+    title: "University Mock Test Platform",
+    description:
+        "A web application that allows prospective university students to take subject-based mock exams, review their results, and prepare effectively for entrance tests.",
+    subDescription: [
+      "Built using Vite and React for high performance and fast development.",
+      "Implemented Redux Toolkit for state management and seamless data flow between components.",
+    ],
+    href: "https://imtihon-edu.uz/",
+    logo: "",
+    image: "/assets/projects/edu.png",
+    tags: [
+      {
+        id: 1,
+        name: "Vite",
+        path: "/assets/logos/vite.svg",
+      },
+      {
+        id: 2,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "Redux",
+        path: "/assets/logos/redux.svg",
+      },
+    ],
+    visibility: 'public'
+  },
+  {
+    id: 4,
+    title: "Electricity Service Request Platform (admin)",
+    description:
+        "An internal web platform used by employees to manage citizen applications for electricity services, such as new connections, meter replacements, and other energy-related requests.",
+    subDescription: [
+      "Developed the frontend with Angular to create structured and dynamic form flows for various service types.",
+      "Used PrimeNG and Bootstrap to build rich UI components, including data tables, calendars, and modals.",
+      "Leveraged RxJS to manage reactive forms, state, and asynchronous data streams cleanly.",
+    ],
+    href: "https://hetk.xdevs.uz/",
+    logo: "",
+    image: "/assets/projects/hetk.png",
+    tags: [
+      {
+        id: 1,
+        name: "Angular",
+        path: "/assets/logos/angular.svg",
+      },
+      {
+        id: 2,
+        name: "RXJS",
+        path: "/assets/logos/rxjs.svg",
+      },
+      {
+        id: 3,
+        name: "Bootstrap",
+        path: "/assets/logos/bootstrap.svg",
+      },
+    ],
+    visibility: 'private'
+  },
+
 ];
+
+export const sideProjects = [
+  {
+    id: 1,
+    title: "Real-Time Chat Application",
+    description:
+        "A full-stack real-time chat platform built with Angular, Node.js, and Socket.IO, enabling users to exchange messages instantly with persistent server-side communication.",
+    subDescription: [
+      "Built the frontend using Angular for a reactive and responsive user interface.",
+      "Developed the backend API with Node.js and Express, handling routing and user sessions.",
+      "Integrated Socket.IO on both client and server sides to enable real-time messaging.",
+    ],
+    href: "https://inchat-client.onrender.com/",
+    logo: "",
+    image: "/assets/projects/in-chat.png",
+    tags: [
+      {
+        id: 1,
+        name: "Angular",
+        path: "/assets/logos/angular.svg",
+      },
+      {
+        id: 4,
+        name: "NodeJS",
+        path: "/assets/logos/node-js.svg",
+      },
+      {
+        id: 5,
+        name: "Socket.IO",
+        path: "/assets/logos/socket-io.svg",
+      },
+    ],
+    visibility: 'hobby'
+  }
+]
 
 export const mySocials = [
   {
     name: "Telegram",
-    href: "https://www.telegram.ru",
+    href: "https://t.me/meyliboyy",
     icon: "/assets/socials/telegram.svg",
   },
   {
@@ -75,11 +174,11 @@ export const mySocials = [
     href: "https://www.linkedin.com/in/meyliboyev-m/",
     icon: "/assets/socials/linkedIn.svg",
   },
-  {
-    name: "Instagram",
-    href: "https://www.instagram.com/ali.sanatidev/reels/",
-    icon: "/assets/socials/instagram.svg",
-  },
+  // {
+  //   name: "Instagram",
+  //   href: "https://www.instagram.com/",
+  //   icon: "/assets/socials/instagram.svg",
+  // },
 ];
 
 export const experiences = [
